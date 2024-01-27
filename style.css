@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color:#0b1522 ;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: #f20044;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px #fff,
+        0 0 20px #f20044,
+        0 0 40px #f20044,
+        0 0 80px #f20044,
+        0 0 160px #f20044,
+
+    }
+}
+h4{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    animation: pacar 5s linear infinite;
+}
+@keyframes pacar
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: skyblue;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px #fff,
+        0 0 20px skyblue,
+        0 0 40px skyblue,
+        0 0 80px skyblue,
+        0 0 160px skyblue,
+
+    }
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.lanjut{
+    background-color: #191919;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border: 3px solid #f20044;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform 0.5s;
+}
+.lanjut:hover{
+    color: #f20044;
+    transition: 0.5s;
+}
+h5{
+    color:bisque;
+}
